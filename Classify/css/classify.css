@@ -1,0 +1,48 @@
+*{padding: 0;margin: 0;}
+html{font-size: 62.5%;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+#Classify{width: 100%;height: auto;overflow: hidden;font-family: 'Avenir', Helvetica, Arial, sans-serif;}
+#Classify .classify_navbox{width: 100%;height: auto;overflow: hidden;position: fixed;z-index: 2222;top: 0;left: 0;border-bottom: 1px solid #eee;}
+#Classify .classify_navbox ul li{width: 25%;height: 30px;float: left;text-align: center;line-height: 30px;
+background: url(../img/classify/select_down.png) no-repeat right;background-size: 16px 16px;}
+#Classify .classify_navbox .big_classify_active{background-image: url(../img/classify/select_up.png);background-repeat: no-repeat;background-size: 16px 16px;background-position:right;color: #1296DB;}
+#Classify .classify_nav_showbox{width: 100%;height: auto;overflow: hidden;display: none;}
+#Classify .classify_navlist_box{width: 100%;height: 100%;position: fixed;top: 31px;left: 0;background:rgba(0,0,0,0.1);}
+#Classify .classify_navlist_box .second_classify{width: 50%;height: auto;overflow: hidden;float: left;background: rgba(255,255,255,1);display: none;}
+#Classify .classify_navlist_box .second_active{background: url(../img/classify/select_right_change.png) no-repeat right!important;background-size: 16px 16px!important;color: #1296db;}
+#Classify .classify_navlist_box .second_classify ul li{width: 82%;height: 30px;line-height: 30px;background: url(../img/classify/select_right.png) no-repeat right;background-size: 16px 16px;
+border-bottom: 1px solid #eee;padding: 0 0 0 18%}
+#Classify .classify_navlist_box .third_classify{width: 50%;height: auto;overflow: hidden;float: right;background: rgba(255,255,255,1);display: none;}
+#Classify .classify_navlist_box .third_classify ul li{width: 95%;height: 30px;line-height: 30px;border-bottom: 1px solid #eee;padding: 0 0 0 5%;}
+#Classify .third_active{color: #1296DB;}
+#Classify .classify_navlist_box .second_classify_all{width: 100%;height: auto;overflow: hidden;background: rgba(255,255,255,1);}
+#Classify .classify_navlist_box .second_classify_all li{width: 92%;height: 30px;line-height: 30px;border-bottom: 1px solid #eee;padding: 0 0 0 8%}
+#Classify .classify_navlist_box .second_classify_all_selected{background: url(../img/classify/selected_left.png) no-repeat 2% 7px;background-size: 16px 16px;color: #1296db;}
+#Classify .classify_selectbox{background: rgba(0,0,0,.1);position: fixed;width: 100%;height: 100%;z-index: 3333;top: 0;left: 0;}
+#Classify .classify_select{width: 80%;height: 80%;overflow-x:hidden;background: rgba(255,255,255,1);position:absolute;z-index: 6666;right: -80%;top: 0;}
+#Classify .classify_select .select_box{width: 100%;height:100%;overflow: hidden;position: relative;}
+#Classify .classify_select .select_box .select_box_body{width: 96%;height: auto;overflow-x: hidden;padding: 0 2%;}
+#Classify .classify_select .select_box .select_box_listbox{width: 100%;height: auto;overflow: hidden;clear: both;border-bottom: 1px solid #eee;padding: 10px 0;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_left{width: 50%;height: 30px;overflow: hidden;float: left;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_right{width: 50%;height: 30px;overflow: hidden;float: left;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_right .select_checkbox{width: 50%;height: 25px;overflow: hidden;border-radius: 10px;background-color: #1296DB;float: right;position: relative;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_right .select_checkbox input{width: 100%;height: 100%;display: block;position: absolute;z-index: 222;top: 0;left: 0;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_nav{width: 100%;height: auto;overflow: hidden;}
+#Classify .classify_select .select_box .select_box_listbox h4{padding: 0 0 0 2%;font-size: 1.3rem;font-weight: normal;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_nav ul li{width: 20%;height: 30px;float: left;margin: 10px 2%;border: 1px solid #eee;text-align: center;
+line-height: 30px;font-size: 1.2rem;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_navprice{width:100%;height: auto;overflow: hidden;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_navprice ul li{width: 28%;height: 30px;float: left;margin: 10px 2%;border: 1px solid #eee;text-align: center;line-height: 30px;font-size: 1.2rem;}
+#Classify .classify_select .select_box .select_box_listbox .select_box_listbox_nav_active{color:#06c1ae;border-color:#06c1ae!important;background-color: #eafcfa;}
+#Classify .classify_select .select_box .select_box_bottom{width:96%;height:auto;overflow: hidden;position: absolute;z-index: 3333;bottom: 0;left: 0;padding: 10px 2%;border-top: 1px solid #eee;}
+#Classify .classify_select .select_box .select_box_bottom_btn{width: 50%;height: auto;float: left;overflow: hidden;}
+#Classify .classify_select .select_box .select_box_bottom_btn button{display: block;width: 70%;height: 30px;border-radius: 10px;}
+#Classify .select_box .select_box_bottom .select_reset{float: left;background: #fff;border: 1px solid #eee;outline: none;}
+#Classify .select_box .select_box_bottom .select_submit{float: right;background: #1296DB;color: #fff;border: none;outline: none;}
+/*作品内容*/
+#Classify .workslist_showbox{width: 100%;height: auto;overflow: hidden;margin: 31px 0 0 0;}
+#Classify .workslist_showbox .workslist_show{width: 100%;height: auto;overflow: hidden;border-bottom: 1px solid #eee;}
+#Classify .workslist_showbox .workslist_show_img{width: 40%;height: auto;overflow: hidden;float: left;}
+#Classify .workslist_showbox .workslist_show_img img{max-width: 100%;max-height: 100%;}
+#Classify .workslist_showbox .workslist_show_info{width: 58%;height: auto;overflow: hidden;float: right;padding: 0 0 0 2%;}
